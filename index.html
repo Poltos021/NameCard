@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Name card</title>
+</head>
+<body> 
+    <div class="container">
+        <div class="wrapper">
+            <a href="#">
+            <img src="img/koito.png" alt="">
+        </a>
+        <div class="text">
+            <div class="title">Nikita Redin</div>
+            <div class="place">Istra, Holsheviki</div>
+        </div>
+        </div>
+        <div class="content">
+            <p>Front-end dev<br>GameDev luv</p>
+            <div class="buttons">
+                <div class="btn">
+                    <button>Message</button>
+                </div>
+                <div class="btn">
+                    <button>Follow me</button>
+                </div>
+            </div>
+        </div>
+        <div class="icons">
+            <li><a href="https://www.reddit.com/user/Poltos_021"><span class="fab fa-reddit"></span></a></li>
+            <li><a href="https://github.com/Poltos021"><span class="fab fa-github"></span></a></li>
+            <li><a href="https://vk.com/poltos_021"><span class="fab fa-vk"></span></a></li>
+        </div>
+    </div>
+
+    <script>
+        const img = document.querySelector("img");
+        img.onclick = function(){
+            this.classList.toggle("active");
+
+        }
+    </script>
+    
+</body>
+</html>
